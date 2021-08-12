@@ -6,12 +6,12 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * Created by Vadim Khublarian on 8/12/21.
  */
 
-public class printHiTest {
+public class MainTests {
 
     @Test
-    public void Test1() {
+    public void returnStringHiTest1() {
         final String resultString = "Hi";
-        assertEquals(resultString, Main.returnHiString(),"The exact string \"Hi\" was not found!");
+        assertEquals(resultString, Main.returnStringHi(),"The exact string \"Hi\" was not found!");
     }
 
 }

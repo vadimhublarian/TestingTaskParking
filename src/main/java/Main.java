@@ -5,10 +5,10 @@ public class Main {
 
     public static void main(String[] args) {
         // write your code here
-        System.out.println(returnHiString());
+        System.out.println(returnStringHi());
     }
 
-    public static String returnHiString() {
+    public static String returnStringHi() {
         return "Hi";
     }
 }
