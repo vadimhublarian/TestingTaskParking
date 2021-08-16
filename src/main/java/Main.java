@@ -4,8 +4,11 @@
 public class Main {
 
     public static void main(String[] args) {
-        // write your code here
-        System.out.println(returnStringHi());
+        Parking parking = new Parking(2,1);
+        System.out.println(parking.park(CarType.PASSENGER_CAR));
+        System.out.println(parking.park(CarType.TRUCK_CAR));
+        System.out.println(parking.park(CarType.PASSENGER_CAR));
+        System.out.println(parking.park(CarType.TRUCK_CAR));
     }
 
     public static String returnStringHi() {
